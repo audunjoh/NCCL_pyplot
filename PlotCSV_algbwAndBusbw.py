@@ -17,7 +17,7 @@ graphList = []
 args = len(sys.argv)
 
 if args == 1:
-	print("How to use:\npython3 PlotCSV.py file1.csv file2.csv")
+	print("How to use:\npython3 PlotCSV_algbwAndBusbw.py file.csv [file.csv] ...")
 	quit()
 
 for i in range(args-1):
